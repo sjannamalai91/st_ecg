@@ -586,7 +586,7 @@ if __name__ == "__main__":
     detector = ImprovedWaveletJPointDetector(sampling_rate=1000)
     
     # Load ECG record
-    ecg_data = detector.get_record('./output_folder', 'test_record')
+    ecg_data = detector.get_record('./output_folder/037', '037')
     
     if ecg_data is not None:
         # Update detector with actual sampling rate
